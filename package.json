@@ -1,0 +1,52 @@
+{
+  "name": "@local/dsh-sticky-wall",
+  "version": "1.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Yang",
+  "description": "Sticky wall: a sidebar page of coloured notes with a composer, search, inline editing, and undo.",
+  "type": "module",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "bundle",
+    "notes",
+    "sticky-wall"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiMenma/dsh-sticky-wall.git"
+  },
+  "homepage": "https://github.com/HiMenma/dsh-sticky-wall#readme",
+  "bugs": {
+    "url": "https://github.com/HiMenma/dsh-sticky-wall/issues"
+  }
+}

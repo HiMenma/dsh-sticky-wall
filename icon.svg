@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Sticky notes">
+  <path d="M12 4 H36 A6 6 0 0 1 42 10 V32 L30 44 H12 A6 6 0 0 1 6 38 V10 A6 6 0 0 1 12 4 Z" fill="#ffcf5c"/>
+  <path d="M30 44 V32 H42 Z" fill="#e2ac16"/>
+  <rect x="12.5" y="16" width="21" height="3.4" rx="1.7" fill="#8a6100"/>
+  <rect x="12.5" y="23.5" width="13" height="3.4" rx="1.7" fill="#8a6100"/>
+</svg>
